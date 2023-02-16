@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LengthCal"
+    android:background="#ACABAB">
+
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="250dp"
+        android:layout_height="54dp"
+        android:autofillHints=""
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/enter_values_gram"
+        android:inputType="number"
+        android:padding="15dp"
+        android:paddingStart="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="250dp"
+        android:layout_height="54dp"
+        android:background="@drawable/input_bg"
+        android:hint="@string/results"
+        android:padding="15dp"
+        android:paddingStart="90dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
+        app:layout_constraintVertical_bias="0.079"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/centi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kilogram"
+        android:background="@drawable/input_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/g"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:background="@drawable/input_bg"
+        android:text="@string/gram"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/ton"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:background="@drawable/input_bg"
+        android:text="@string/ton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <Button
+        android:id="@+id/po"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:background="@drawable/input_bg"
+        android:text="@string/pound"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="54dp"
+        android:layout_height="28dp"
+        android:background="@drawable/input_bg"
+        android:paddingStart="5dp"
+        android:text="@string/back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733"
+        tools:ignore="RtlSymmetry,TextSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

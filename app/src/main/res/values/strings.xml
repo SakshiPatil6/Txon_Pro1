@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="unit">Unit Coverter Express Versions</string>
+    <string name="length">length</string>
+    <string name="temperature">temperature</string>
+    <string name="time">time</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="results">Results</string>
+    <string name="centimeter">centimeter</string>
+    <string name="meter">meter</string>
+    <string name="kilometer">kilometer</string>
+    <string name="miles">miles</string>
+    <string name="weight">Weight</string>
+    <string name="gram">gram</string>
+    <string name="kilogram">kilogram</string>
+    <string name="ton">ton</string>
+    <string name="pound">pound</string>
+    <string name="second">second</string>
+    <string name="minute">minute</string>
+    <string name="hour">hour</string>
+    <string name="day">day</string>
+    <string name="back">Back</string>
+    <string name="celsius">celsius</string>
+    <string name="kelvin">kelvin</string>
+    <string name="fahrenheit">fahrenheit</string>
+    <string name="enter_values_days">Enter values(days)</string>
+    <string name="enter_values_meter">Enter Values(meter)</string>
+    <string name="enter_values_gram">Enter Values(kg)</string>
+    <string name="enter_values_celsius">Enter Values(Celsius)</string>
+</resources>
